@@ -70,7 +70,8 @@ self.addEventListener('fetch', e => {
                     return networkResponse;
                 }).catch(error => {
                     console.error('Error fetching from network:', error);
-                    // Optionally, you can return a fallback response here
+                    // Return the cached response if available
+                    return cacheResponse || new Response('Cache is unavailable. Please check your internet connection.');
                 });
             });
         })
