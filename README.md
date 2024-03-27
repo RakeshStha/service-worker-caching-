@@ -19,3 +19,10 @@
 * All cached request using service worker
 
 ![image](https://github.com/RakeshStha/service-worker-caching-with-cache-time/assets/56125560/c1decbe5-1d6c-435c-9818-4a23889ae68f)
+
+* Fetch cached data when offline
+
+![image](https://github.com/RakeshStha/service-worker-caching-with-cache-time/assets/56125560/4e994a01-dbe3-41fd-976c-7477046962ad)
+
+
+
